@@ -1,0 +1,2 @@
+$ curl -s -c /c/Users/Muadz/Documents/LAB/Assignment/expressBookReviews/evidence/cookies.txt -X POST http://localhost:5000/customer/login -H 'Content-Type: application/json' -d '{"username":"alice","password":"alice123"}'
+{"message":"User successfully logged in","accessToken":"<redacted-test-token>"}
